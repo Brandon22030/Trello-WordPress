@@ -1,4 +1,4 @@
-# Trello Post-it (TWP)
+# Trello WordPress (TWP)
 
 A Trello-inspired web application that integrates with WordPress via its REST API. The application allows you to manage tasks and notes in the form of kanban boards, using WordPress as the backend to store data.
 
