@@ -1,68 +1,67 @@
 # Trello Post-it (TWP)
 
-Une application web inspirée de Trello qui s'intègre avec WordPress via son API REST. L'application permet de gérer des tâches et des notes sous forme de tableaux kanban, en utilisant WordPress comme backend pour stocker les données.
+A Trello-inspired web application that integrates with WordPress via its REST API. The application allows you to manage tasks and notes in the form of kanban boards, using WordPress as the backend to store data.
 
 ![capt1](./trello_postit/src/assets/img/cap1.png)
 ![capt2](./trello_postit/src/assets/img/cap2.png)
 ![capt3](./trello_postit/src/assets/img/cap3.png)
 ![capt4](./trello_postit/src/assets/img/cap4.png)
 
-## Description du Projet
-
-"Trello Post-it" est une application web qui transforme WordPress en un système de gestion de tâches visuel de type Trello. L'interface utilisateur est développée avec Vue.js 3 et Tailwind CSS, offrant une expérience moderne et réactive similaire à Trello.
+## Project Description
+Trello Post-it is a web application that transforms WordPress into a Trello-like visual task management system. The user interface is developed with Vue.js 3 and Tailwind CSS, providing a modern and responsive experience similar to Trello.
 
 Le projet utilise l'architecture suivante :
-- **Frontend** : Vue.js 3, Tailwind CSS, Pinia (pour la gestion d'état)
+- **Frontend** : Vue.js 3, Tailwind CSS, Pinia (for state management)
 - **Backend** : WordPress REST API
-- **Outils de développement** : Vite, ESLint, Prettier
+- **Development tools** : Vite, ESLint, Prettier
 
-## Fonctionnalités Principales
+## Main Features
 
-1. **Gestion des Tableaux Kanban**
-   - Création, modification et suppression de listes (catégories WordPress)
-   - Création, modification et suppression de cartes (articles WordPress)
-   - Glisser-déposer des cartes entre les listes
+1. **Kanban Board Management**
+- Creating, editing, and deleting lists (WordPress categories)
+- Creating, editing, and deleting cards (WordPress posts)
+- Drag and drop cards between lists
 
-2. **Intégration avec WordPress**
-   - Les listes correspondent aux catégories WordPress
-   - Les cartes correspondent aux articles WordPress
-   - Authentification via JWT pour les opérations d'écriture
+2. **WordPress Integration**
+- Lists correspond to WordPress categories
+- Cards correspond to WordPress posts
+- Authentication via JWT for write operations
 
-3. **Gestion des Commentaires**
-   - Ajout de commentaires aux cartes (articles)
-   - Modification et suppression des commentaires
-   - Affichage des commentaires pour chaque carte
+3. **Comment Management**
+- Adding comments to cards (posts)
+- Editing and deleting comments
+- Viewing comments for each card
 
-4. **Interface Utilisateur**
-   - Interface inspirée de Trello avec un design moderne
-   - Vue d'ensemble du tableau avec toutes les listes et cartes
-   - Affichage détaillé des cartes avec leurs informations et commentaires
-   - Navigation intuitive entre les différentes vues
+4. **User Interface**
+- Trello-inspired interface with a modern design
+- Board overview with all lists and cards
+- Detailed display of cards with their information and comments
+- Intuitive navigation between different views
 
-5. **Fonctionnalités de Données**
-   - Synchronisation en temps réel avec la base de données WordPress
-   - Gestion des états avec Pinia pour une expérience utilisateur fluide
-   - Persistance des données via l'API REST de WordPress
+5. **Data Features**
+- Real-time synchronization with the WordPress database
+- State management with Pinia for a seamless user experience
+- Data persistence via the WordPress REST API
 
-6. **Personnalisation**
-   - Arrière-plan personnalisé pour le tableau
-   - Interface adaptative pour différentes tailles d'écran
+6. **Personalization**
+- Custom background for the table
+- Responsive interface for different screen sizes
 
-## Prérequis
+## Prerequisites
 
-- Node.js et npm
+- Node.js and npm
 - Vue.js
 - Tailwind CSS
-- WordPress avec l'API REST activée
-- Un token JWT valide pour l'authentification WordPress
+- WordPress with REST API enabled
+- A valid JWT token for WordPress authentication
 
 ## Installation
 
--   Clonez le contenu dans votre répertoire web de travail avec `git clone "repository"`
--   Démarrez votre WordPress avec `php -S localhost:<votre port>`
--   Modifiez votre token et remplacez votre localhost WordPress dans le store
--   Exécutez `npm install`
--   Exécutez `npm run dev`
+- Clone the content into your working web directory with `git clone "repository"`
+- Start your WordPress with `php -S localhost:<your port>`
+- Modify your token and replace your WordPress localhost in the store
+- Run `npm install`
+- Run `npm run dev`
 
 
 # Usage
